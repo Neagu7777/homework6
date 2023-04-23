@@ -1,0 +1,12 @@
+ 2 #!/bin/bash
+  3
+  4 for i in `seq -w 1 10`
+  5 do
+  6
+  7 touch $i`date +%Y%m%d`file.txt
+  8
+  9
+ 10
+ 11
+ 12 done
+ 13
